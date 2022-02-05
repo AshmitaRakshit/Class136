@@ -1,0 +1,16 @@
+python -m venv venv 
+venv\Scripts\activate.bat
+ 
+pip install flask
+
+this works with with 3.8.6 version.
+save the data file from the collabe as 
+data=[...]
+save the file name as data.py
+
+we need to return the data as a json file as it's help in creating api's
+
+run main.py and check in postman or in browser.
+
+
+Flask is basically a micro web application framework written in Python. Developers often use Flask for making web applications, HTTP request management,
